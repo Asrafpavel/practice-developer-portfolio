@@ -43,19 +43,22 @@ nav li {
 
 /* banner styles */
 .header {
+    /* width: 1600px;
+    margin: 0 auto; */
     background: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right , left;
+    background-position: bottom right, left;
 }
 
 .btn {
     display: flex;
     gap: 30px;
 }
-.btn .btn-primary{
+
+.btn .btn-primary {
     width: 210px;
-    
+
 }
 
 .btn .contact-btn {
@@ -71,10 +74,6 @@ nav li {
 
 
 }
-/* .fa-solid{
-    display: inline;
-    margin: left;
-} */
 
 .banner {
     padding: 0 210px;
@@ -105,4 +104,54 @@ nav li {
     color: #757575;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+/* about me section styles  */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.about-me {
+    padding: 130px 200px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    /* width: 1140px;
+    margin: 0 auto; */
+    margin-top: 130px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+.section-description {
+    text-align: center;
+    color: #757575;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about-info{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    
+}
+.info-title{
+    /* text-align: center; */
+    font-size: 20px;
+    color: #757575;
+}
+.info-element{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 15px;
+
 }
