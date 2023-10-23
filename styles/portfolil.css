@@ -143,6 +143,7 @@ main {
     display: flex;
     text-align: center;
     gap: 40px;
+    justify-content: center;
 
 }
 
@@ -163,10 +164,12 @@ main {
 /* what i do styles  */
 .what-i-do{
     margin-top: 130px;
+    /* padding: 0 200px; */
 }
 .skill-items{
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 .skills{
     margin-top: 30px;
@@ -226,4 +229,52 @@ main {
 .resume .btn{
     margin-top: 50px;
     justify-content: center;
+}
+
+/* contact styles */
+.full-background{
+    box-shadow: 0 0 0 100vmax #FFF8F3;
+    clip-path: inset(0 -100vmax);
+}
+.contact{
+    display: flex;
+    gap: 117px;
+    /* width: 100%; */
+    margin-top: 113px;
+    background: #FFF8F3;
+    padding: 130px 0px;
+    border-radius: 10px;
+}
+.contact-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #181818;
+    
+}
+.contact .skill-description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact a {
+     text-decoration: none;
+     margin-right: 15px;
+}
+
+
+.form input[type="text"] , input[type="email"] , textarea {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.form .btn-primary{
+    margin-top: 20px;
+}
+
+/* footer styles  */
+.fitems{
+    background-color: #dbd3d3fb;
+    padding: 50px;
+    text-align: center;
 }
